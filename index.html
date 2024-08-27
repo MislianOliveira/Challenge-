@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img class="cabecalho__logo" src="assets/Logo.png" alt="logo alura">
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <textarea id="apresentacao__conteudo__textoinserir" placeholder="Digite seu texto"></textarea>
+            
+            <div class="info">
+            <p> <img src="./assets/bi_exclamation-circle-fill.png" alt="!"> Apenas letras minúsculas e sem acentos</p>
+            </div>
+            <div class="apresentacao__conteudo__button">
+                 <button class="button" id="code" onclick="code()">Criptografar</button>
+                <button class="button" id="decode" onclick="decode()">Descriptografar</button>
+            </div>            
+        </section>
+        <section id="mensagem">
+        <img class="mensagem__imagem" src="assets/1.PNG.png" alt="Nenhuma mensagem encontrada">
+        <h6 class="mensagem_erro">Nenhuma mensagem encontrada</h6>
+        <p class="mensagem__p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </section>
+        
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Mislian.</p>
+    </footer>   
+</body>
+</html>
